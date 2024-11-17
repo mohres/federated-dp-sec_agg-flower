@@ -17,9 +17,9 @@ fds = {}
 configs = toml.load("pyproject.toml")
 
 
-class CustomResNet(nn.Module):
+class DPResNet(nn.Module):
     def __init__(self, in_channels=0, num_classes=0):
-        super(CustomResNet, self).__init__()
+        super(DPResNet, self).__init__()
         self.num_classes = num_classes
 
         # Define convolutional layers
