@@ -81,6 +81,5 @@ local_dp_mod = LocalDpMod(
 # Flower ClientApp
 app = ClientApp(
     client_fn=client_fn,
-    mods=[local_dp_mod, parameters_size_mod],
+    mods=[local_dp_mod, secaggplus_mod, parameters_size_mod],
 )
-# secaggplus_mod
