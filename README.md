@@ -2,6 +2,9 @@
 
 This project demonstrates an experiment in **Federated Learning** using the **Flower** framework, incorporating sample-level **Differential Privacy** and enabling **Secure Aggregation** through the **SecAgg+** protocol. The experiment is conducted on the **MedMNIST** dataset collection.
 
+This work builds upon concepts presented in our paper **"Towards Privacy-Preserving Medical Imaging: Federated Learning with Differential Privacy and Secure Aggregation Using a Modified ResNet Architecture"** accepted at the NeurIPS 2024 Workshop.
+[Read the paper here](https://neurips.cc/virtual/2024/109149).
+ 
 ## Setup
 
 This project is built and tested on **Python 3.8.10**.
